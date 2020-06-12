@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    
+</head>
+<body>
+  <header id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar my_nav fixed-top  navbar-expand-lg navbar-light bg-light">
+            <button id="mbs" class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#"><img src="img/download.jpg" alt=""></a>
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home"> <span >Home</span></a>
+                </li>
+                <li class="nav-item  active">
+                  <a class="nav-link" href="#about"> <span>About</span> </a>
+                </li>
+                <li class="nav-item  active">
+                  <a class="nav-link" href="#contact" > <span>Contact</span></a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <div class="row slider_row">
+        <div class="col-md-12">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner ">
+              <div class="carousel-item my_slider active">
+                <img src="img/download (4).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Computer engineering</h5>
+                  <p>Computer Science & Engineering is an academic program at some universities that integrates the fields of computer engineering and computer science, providing knowledge of computing systems in both hardware and software design</p>
+                </div>
+              </div>
+              <div class="carousel-item my_slider">
+                <img src="img/images (11).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Electrical engineering</h5>
+                  <p>Electrical engineering is an engineering discipline concerned with the study, design and application of equipment, devices and systems which use electricity, electronics, and electromagnetism.</p>
+                </div>
+              </div>
+              <div class="carousel-item my_slider">
+                <img src="img/download (6).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Civil Engineering</h5>
+                  <p>Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <div class="title">
+        <h1>About Us</h1>
+      </div>
+      <div class="our_course">
+        <h3>Our course</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card our_card">
+            <img class="card-img-top" src="img/download (1).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Computer Engineering</h4>
+                <div class="card-text">
+                  <p>Computer Science & Engineering is an academic program at some universities that integrates the fields of computer engineering and computer science, providing knowledge of computing systems in both hardware and software design.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card our_card">
+            <img class="card-img-top" src="img/images (2).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Electrical Engineering</h4>
+                <div class="card-text">
+                  <p>Electrical engineering is an engineering discipline concerned with the study, design and application of equipment, devices and systems which use electricity, electronics, and electromagnetism.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card our_card">
+            <img class="card-img-top" src="img/download (5).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Civil Engineering</h4>
+                <div class="card-text">
+                  <p>Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="our_teachers">
+    <div class="container teach_container">
+      <div class="our_tech">
+        <h1>Our <span>Teachers</span></h1>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card our_techcard">
+            <img class="card img_size" src="img/images (1).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Miraz Ahmed</h4>
+                <h6>Principal</h6>
+                <div class="card-text icons">
+                  <p></p>
+                  <a href="">
+                    <i class="fas fa-envelope fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card our_techcard">
+            <img class="card img_size" src="img/images (8).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Muhit Khan</h4>
+                <h6>Lecturer</h6>
+                <div class="card-text icons">
+                  <p></p>
+                  <a href="">
+                    <i class="fas fa-envelope fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card our_techcard">
+            <img class="card img_size" src="img/images (4).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Md.Abubokor</h4>
+                <h6>Lecturer</h6>
+                <div class="card-text icons">
+                  <p></p>
+                  <a href="">
+                    <i class="fas fa-envelope fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card our_techcard">
+            <img class="card img_size" src="img/images (3).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Rayhan Uddin</h4>
+                <h6>Lecturer</h6>
+                <div class="card-text icons">
+                  <p></p>
+                  <a href="">
+                    <i class="fas fa-envelope fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row card_row">
+        <div class="col-md-3">
+          <div class="card our_techcard">
+            <img class="card img_size" src="img/images (7).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Taslima Jannat </h4>
+                <h6>Lecturer</h6>
+                <div class="card-text icons">
+                  <p></p>
+                  <a href="">
+                    <i class="fas fa-envelope fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card our_techcard">
+            <img class="card img_size" src="img/images (6).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Mohoma</h4>
+                <h6>Lecturer</h6>
+                <div class="card-text icons">
+                  <p></p>
+                  <a href="">
+                    <i class="fas fa-envelope fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card our_techcard">
+            <img class="card img_size" src="img/images (5).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Khadija</h4>
+                <h6>Lecturer</h6>
+                <div class="card-text icons">
+                  <p></p>
+                  <a href="">
+                    <i class="fas fa-envelope fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card our_techcard">
+            <img class="card img_size" src="img/images (9).jpg">
+            <div class="card-body">
+              <div class="card-title">
+                <h4>Aysah Siddiki</h4>
+                <h6>Lecturer</h6>
+                <div class="card-text icons">
+                  <p></p>
+                  <a href="">
+                    <i class="fas fa-envelope fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="our_student">
+    <div class="container student_cont">
+      <div class="student_head">
+        <h1>Our <span>student</span></h1>
+      </div>
+      <div class="row stu_row">
+        <div class="col-md-4">
+          <img src="img/download (2).png" alt="">
+          <div class="num">1230</div>
+          Computer Student
+        </div>
+        <div class="col-md-4">
+          <img src="img/download (3).jpg" alt="">
+          <div class="num">1150</div>
+          Electrical student
+        </div>
+        <div class="col-md-4">
+          <img src="img/download.png" alt="">
+          <div class="num">1050</div>
+          Civil Student
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="contact_head">
+        <h1>Contact <span>Us</span></h1>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="message">
+            <input class="col-md-4" type="text" placeholder="First Name">
+            <input class="col-md-4" type="text" placeholder="Last Name">
+            <input class="col-md-4" type="number" placeholder="Phone">
+            <input class="col-md-4" type="email" placeholder="Email">
+            <input class="col-md-4" type="text" placeholder="Subject">
+            <div class="col-md-8">
+              <textarea id="" cols="30" rows="8" placeholder="Message"></textarea>
+              <input class="col-md-6" type="button" value="SEND MESSAGE">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 phone">
+          <div class="one">
+            <i class="fas fa-phone fa-2x"></i>
+          <span>0821-840183</span>
+          </div>
+          <div class="two">
+            <i class="fas fa-phone fa-2x"></i>
+          <span>01877-278427</span>
+          </div>
+          <div class="three">
+            <i class="fas fa-phone fa-2x"></i>
+          <span>01964-000067</span>
+          </div>
+          <div class="four">
+            <i class="fas fa-phone fa-2x"></i>
+          <span>01964-000068</span>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <footer>
+     <div class="container">
+       <div class="row last_row">
+         <div class="col-md-12">
+          Copyright &copy Md.Al-Amin
+         </div>
+       </div>
+     </div>
+   </footer>
+   <script type="text/javascript">
+   $(".num").counterUp({delay:10,time:1000});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,218 @@
+.navbar-brand img {
+    width: 100px;
+    height: 75px;
+}
+.my_nav{
+    width:960px;
+    margin:auto;
+    border-bottom:2px solid green;
+}
+li.nav-item.active:hover {
+    background: green;
+    color: black;
+}
+a.nav-link {
+    padding: 7px 0px;
+    margin: 0px 15px;
+}
+.my_slider h5 {
+    color: #fff8f8;
+    text-transform: uppercase;
+    font-size: 25px;
+    background: #00000070;
+    width: 350px;
+    margin: auto;
+}
+.my_slider p{
+    color: #fdfdfd;
+}
+.my_slider img{
+    height: 500px;
+
+} 
+.our_card{
+    height: 450px;
+    box-shadow: 0px 0px 20px #8e8383;
+    transition:all 1s;
+}
+.our_card:hover{
+    margin-top:20px;
+
+}
+.title{
+    padding-top: 60px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.title h1 {
+    border-bottom: 2px solid green;
+    text-align: center;
+    font-family: arial;
+}
+h3 {}
+
+.our_course {
+    text-align: center;
+    border: 2px solid black;
+    width: 250px;
+    margin-bottom: 40px;
+    transition:all 1s;
+}
+.our_course:hover {
+    background: #008000;
+    color: white;
+    
+}
+#about .container {
+    background: #ecd9d914;
+}
+#our_teachers{
+    margin-top: 50px;
+
+}
+.teach_container{
+    background: #e6ded342;
+}
+.our_tech {
+    margin: auto;
+    width: 250px;
+}
+.our_tech h1{
+    text-align:center;
+    width: 250px;
+    border-bottom:2px solid black;
+    margin: 29px 0px;
+}
+.our_tech span {
+    color: orangered;
+}
+.img_size {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin:auto;
+}
+.our_techcard h4,h6{
+    text-align: center;
+    margin-bottom:15px;
+}
+.our_techcard{
+    transition:all 1s;
+}
+.our_techcard:hover {
+    background: #00bcd44f;
+    color: #0e0e0e;
+}
+.icons{
+    margin-top:25px;
+}
+.icons a i{
+    margin:0px 3px;
+
+}
+.card_row{
+    margin-top: 30px;
+}
+.contact_head {
+    margin: auto;   
+}
+.contact_head h1{
+    text-align: center;
+    margin: 50px 0px;
+}
+.contact_head h1 span{
+    color: #ea430e;
+}
+.message input {
+    height: 45px;
+    margin: 15px 30px;
+    border: none;
+    border-radius: o;
+    border-bottom: 1px solid #0000003b;
+    padding-left: 0px;
+}
+
+.message textarea {
+    margin: 15px 15px;
+    border: none;
+    border-bottom: 2px solid #0000003b;
+    padding-left: 0px;
+    width: 300px;
+}
+.message input button {
+    background: orange;
+}
+
+.message input.col-md-6 {
+    background: #ea430e;
+    font-family: arial;
+    color: #fdfdfd;
+    margin-left: 10px;
+    transition: all 1s;
+}
+
+.message input.col-md-6:hover {
+    background: black;
+}
+.phone i {
+    color: orangered;
+    width: 10px;
+    height: 0px;
+    padding: 10px;
+    transition:all 0.5s;
+}
+
+.phone {
+    margin-left: 0px;
+    padding: 50px 0px;
+    margin: 0px -7px;
+}
+.phone span {
+    margin: 0px 4px;
+    padding: 10px 66px;
+    line-height: 5;
+}
+.phone span {
+    padding: 9px 40px;
+    line-height: 5;
+}
+.phone i:hover {
+    color: black;
+}
+.student_cont{
+    background: #b4b7cc40;
+}
+.student_head{
+    text-align: center;
+    margin-top: 50px;
+}
+.stu_row img {
+    width: 60px;
+    height: 40px;
+}
+.num {
+    margin: 15px 15px;
+    font-size: 25px;
+}
+
+.stu_row.col-md-4 {
+    margin: auto;
+    text-align: center;
+}
+
+.row.stu_row {
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+}
+.student_head span {
+    color: orangered;
+}
+.last_row{
+    text-align: center;
+    background: #130f0fb3;
+    color: white;
+    padding: 15px;
+    font-style: oblique;
+}
